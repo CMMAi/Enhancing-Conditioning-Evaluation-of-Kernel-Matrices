@@ -12,7 +12,7 @@ par=1;
 
 n=[500,1000,2000]; % number of collocation points
 nt=900; % number of test points
-CASE=1;   % you can try F1 to F7; F1 and F2 are function which are used in the paper
+CASE=1;   % you can try F1 to F7; F1 and F2 are used in the manuscript
 error_list(type, par, n, nt, CASE)
 
 %** note on Wendland RBF: When using Wendland, change "scaleList" in 
